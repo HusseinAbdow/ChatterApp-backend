@@ -1,11 +1,14 @@
-# Ignore build files
-/target/
+# Gradle build files and cache
+/build/
+.gradle/
+
+# Compiled Java files and archives
 *.class
 *.jar
 *.war
 *.log
 
-# IDE config
+# IDE config files
 .idea/
 *.iml
 .project
@@ -13,18 +16,19 @@
 .settings/
 .vscode/
 
-# OS files
+# OS system files
 .DS_Store
 Thumbs.db
 
-# Spring Boot configs
+# Spring Boot config files (to keep credentials private)
 application.properties
 application.yml
 application-*.properties
 application-*.yml
 
-# Database
+# Database files
 *.db
 *.h2.db
 *.sqlite
+
 
