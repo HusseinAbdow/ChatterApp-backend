@@ -1,3 +1,4 @@
+
 ChatterApp Backend
 A Twitter-inspired social media backend built with Spring Boot. Handles user accounts, posts, likes, comments, and personalized feeds.
 
