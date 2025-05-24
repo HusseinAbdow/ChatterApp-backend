@@ -1,0 +1,30 @@
+# Ignore build files
+/target/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE config
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot configs
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Database
+*.db
+*.h2.db
+*.sqlite
+
