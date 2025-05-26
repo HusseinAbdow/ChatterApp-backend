@@ -3,6 +3,10 @@ ChatterApp Backend
 
 This project is a conceptual clone of Twitter, built from scratch without utilizing any of Twitter's APIs or developer tools, designed solely as a personal exploration of social media platform development. It is not intended for commercial use, financial gain, or any form of ownership, and is purely a non-profit, educational endeavor.
 
+
+The project is still ongoing and will continue to be updated with new features and improvements.
+
+
 FOR EDUCATIONAL PURPOSE ONLY!!
 
 A Twitter-inspired social media backend built with Spring Boot. Handles user accounts, posts, likes, comments, and personalized feeds.
