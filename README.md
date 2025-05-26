@@ -1,5 +1,6 @@
 
 ChatterApp Backend 
+
 This project is a conceptual clone of Twitter, built from scratch without utilizing any of Twitter's APIs or developer tools, designed solely as a personal exploration of social media platform development. It is not intended for commercial use, financial gain, or any form of ownership, and is purely a non-profit, educational endeavor.
 
 FOR EDUCATIONAL PURPOSE ONLY!!
