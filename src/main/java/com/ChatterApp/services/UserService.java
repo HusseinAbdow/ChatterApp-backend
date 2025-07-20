@@ -11,7 +11,7 @@ import jakarta.transaction.Transactional;
 
 @Service
 @Transactional
-//youtuber mentioned @Transactional what is this what is it usually used for
+// youtuber mentioned @Transactional what is this what is it usually used for
 public class UserService {
 	
 	
@@ -30,11 +30,11 @@ public class UserService {
    public ApplicationUser registerUser(ApplicationUser user) {
        // Initialize authorities if null
        if (user.getAuthorities() == null) {
-           user.setAuthorities(new HashSet<>());
+           user.setAuthorities(new HashSet<>()); //an empty hashset does not return null. its a valid object with no elements
        }
 
        // Safely get or create USER role
-       Role userRole = roleRepo.findByAuthority("USER")
+       Role userRole = roleRepo.findByAuthority("USER")  // checks if a "USER" role exists in the DB
            .orElseGet(() -> roleRepo.save(new Role("USER")));
 
        // Add role to user
