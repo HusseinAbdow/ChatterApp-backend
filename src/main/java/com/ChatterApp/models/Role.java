@@ -9,50 +9,47 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "roles")
 public class Role {
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Integer roleId;
+
+  
+    // Fields
 	
-	private String authority;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer roleId;
 
-	public Role() {
-		super();
-	}
-	
+    private String authority;
 
-	public Role(String authority) {
-		super();
-		
-	}
+ 
+    // Constructors
 
+    public Role() {
+        super();
+    }
 
-	public Role(Integer roleId, String authority) {
-		super();
-		this.roleId = roleId;
-		this.authority = authority;
-	}
+    public Role(String authority) {
+        super();
+    }
 
-	public Integer getRoleId() {
-		return roleId;
-	}
+    public Role(Integer roleId, String authority) {
+        super();
+        this.roleId = roleId;
+        this.authority = authority;
+    }
 
-	public void setRoleId(Integer roleId) {
-		this.roleId = roleId;
-	}
+  
+    // Getters and Setters
 
-	public String getAuthority() {
-		return authority;
-	}
+    public Integer getRoleId() { return roleId; }
+    public void setRoleId(Integer roleId) { this.roleId = roleId; }
 
-	public void setAuthority(String authority) {
-		this.authority = authority;
-	}
+    public String getAuthority() { return authority; }
+    public void setAuthority(String authority) { this.authority = authority; }
 
-	@Override
-	public String toString() {
-		return "Role [roleId=" + roleId + ", authority=" + authority + "]";
-	}
-	
-	
-
+   
+    // toString()
+ 
+    @Override
+    public String toString() {
+        return "Role [roleId=" + roleId + ", authority=" + authority + "]";
+    }
 }
