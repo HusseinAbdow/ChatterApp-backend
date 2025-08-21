@@ -1,6 +1,10 @@
 # Gradle build files and cache
 /build/
+/out/
+/target/
 .gradle/
+gradle-app.setting
+gradle-app.properties
 
 # Compiled Java files and archives
 *.class
@@ -15,6 +19,9 @@
 .classpath
 .settings/
 .vscode/
+
+# Logs
+/logs/
 
 # OS system files
 .DS_Store
@@ -31,4 +38,8 @@ application-*.yml
 *.h2.db
 *.sqlite
 
-
+# Temp files
+*.swp
+*.tmp
+*.bak
+*.orig
